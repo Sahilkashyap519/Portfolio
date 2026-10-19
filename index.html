@@ -1,0 +1,180 @@
+# Portfolio
+It is a protfolio which gives details about my studies and project
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Sahil Kashyap | Personal Profile</title>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <header class="header">
+            <nav class="navbar">
+                <div class="logo">Sahil Kashyap</div>
+                
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+    <button id="themeToggle">Switch to dark mode</button>
+    <main>
+
+        <!-- Main Heading -->
+        <section class="hero">
+            <h1>Sahil Kashyap</h1>
+
+            <p>
+                B.Tech Computer Engineering Student |
+                Aspiring Software Developer |
+                AI & Data Science Enthusiast
+            </p>
+
+            <a href="#projects" class="button">View My Projects</a>
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+
+            <p>
+                I am Sahil Kashyap, a B.Tech Computer Engineering student
+                interested in software development, artificial intelligence,
+                data science, and programming.
+            </p>
+
+            <p>
+                I am currently learning and working with technologies such as
+                Python, C, C++, JavaScript, React, Next.js, and other modern
+                development tools.
+            </p>
+
+            <p>
+                Hobbies: Playing Cricket, Footbal, FreeFire, Clash of Clans
+                
+            </p>
+            
+            <p>
+                Career goals: Data Scientist, E-athlete.
+ 
+            </p>
+
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>My Skills</h2>
+
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Data Structures & Algorithms</li>
+                <li>AI & Data Science</li>
+                <li>Another Skills: Esports Player</li>
+            </ul>
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+
+            <div class="projects-container">
+
+                <div class="project-card">
+                    <h3>ZENNY.AI</h3>
+
+                    <p>
+                        An AI-driven personal finance manager designed to
+                        help college students manage expenses, savings,
+                        budgets, and financial planning.
+                    </p>
+
+                    <a href=https://github.com/Sahilkashyap519/Rohit/blob/main/README.md
+                       target="_blank">
+                        View Project
+                    </a>
+                </div>
+
+
+                <div class="project-card">
+                    <h3>Square of numbers</h3>
+
+                    <p>
+                        It is link for square of number
+                    </p>
+
+                    <a href=https://github.com/Sahilkashyap519/Rohit/blob/main/square.py
+                       target="_blank">
+                        View Project
+                    </a>
+                </div>
+
+
+                <div class="project-card">
+                    <h3>Readme Audit</h3>
+
+                    <p>
+                        A project made on github about audit
+                    </p>
+
+                    <a href=https://github.com/Sahilkashyap519/Rohit/blob/main/AUDIT.md
+                       target="_blank">
+                        View Project
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>
+            © 2026 Sahil Kashyap |
+            Mobile no.: 1287934091
+            Email: djqoajo@gamil.com
+        </p>
+    </footer>
+
+    <section class="chat-widget" aria-label="Chat assistant">
+        <div class="chat-panel" id="chatPanel" hidden>
+            <div class="chat-header">
+                <div>
+                    <h2>Chat Assistant</h2>
+                    <p>Ask me a question</p>
+                </div>
+                <button class="chat-close" id="chatClose" type="button" aria-label="Close chat">×</button>
+            </div>
+            <div class="chat-messages" id="chatMessages" aria-live="polite">
+                <p class="chat-message bot-message">Hi! How can I help you?</p>
+            </div>
+            <form class="chat-form" id="chatForm">
+                <label class="visually-hidden" for="chatInput">Your message</label>
+                <input id="chatInput" name="message" type="text" placeholder="Type a message..." autocomplete="off" required>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <button class="chat-launcher" id="chatLauncher" type="button" aria-expanded="false" aria-controls="chatPanel">
+            Chat with me
+        </button>
+    </section>
+
+    <script src="back.js"></script>
+
+</body>
+</html>
